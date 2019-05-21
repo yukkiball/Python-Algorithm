@@ -6,7 +6,9 @@ def selection_sort(listunsort):
             if listunsort[j] < listunsort[min]:
                 min = j
         listunsort[i], listunsort[min] = listunsort[min], listunsort[i]
-    return listunsort
 
+
+#测试
 l1 = [5, 3, 1, 2, 6]
-print(selection_sort(l1))
+selection_sort(l1)
+print(l1)
