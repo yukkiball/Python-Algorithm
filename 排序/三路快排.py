@@ -1,5 +1,5 @@
 def Qucik3_way(listunsort, lo, hi):
-    """三路快排"""
+    """三路快排O(NlogN)"""
     if lo >= hi:
         return
     lt = lo; i = lo + 1; gt = hi    #三指针维护小于、等于、大于区域
