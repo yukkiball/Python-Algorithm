@@ -3,7 +3,7 @@ def quick_sort(listunsort, lo, hi):
     """快速排序"""
     if lo >= hi:
         return
-    j = partition(listunsort, lo, hi )
+    j = partition(listunsort, lo, hi)
     quick_sort(listunsort, lo, j - 1)
     quick_sort(listunsort, j + 1, hi)
 
